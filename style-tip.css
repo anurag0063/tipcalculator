@@ -1,0 +1,82 @@
+body {
+    background-image: url(cutlery.jpg);
+    color: #532827;
+    font-weight: bolder;
+}
+#container{
+    text-align: center;
+    width:400px;
+    background-image: url(paper-pattern.jpg);
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 5px;
+    box-shadow: 2px 0px 2px #ddd;
+    box-sizing: border-box;
+        
+}
+form {
+    text-align: left;
+}
+label {
+    margin: 10px 0;
+    display: block;
+    font-size: 18px;
+    
+}
+input[type="text"] {
+    width: 80px;
+    padding: 10px;
+    margin: 10px 0px 20px;      
+}
+
+#button {
+    font-size: 24px;
+    padding: 10px 60px;
+    margin: 0 40px auto;
+    background-color: #532827;
+    color: white;
+    text-transform: uppercase;
+}
+
+select {
+    margin:10px 0 20px;
+}
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-bottom: solid 1px #ddd;
+    font-size:px;
+}
+
+#button:hover {
+    box-shadow: 0px -2px 20px #532827;
+}
+
+#button:active {
+    position: relative;
+    top: 2px;
+}
+#totalTip {
+    margin: 20px 0 0;
+}
+#totalTip:before {
+    content: "Tip Amount";
+    font-size: 14px;
+    color: #532827;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+span {
+    font-size: 45px;
+}
+sup {
+    font-size: 24px;
+    top: -18px;
+}
+small {
+    display: block;
+}
